@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/huddlewave-landing-JAEoJ72REB)
+- Live Site URL: [Add live site URL here](https://freedev-group.github.io/Huddle-landing-page-Kabidu/)
 
 ## My process
 
@@ -46,12 +46,12 @@ Users should be able to:
 
 ### What I learned
 
-- install and use front Awesome to display icons un my challenge
-- style my incons with css, adjusting color, backgroud, border radius, and hover effects 
+- install and use front Awesome to display icons in my challenge
+- style my incons with css, adjusting color, background, border radius, and hover effects 
 
 ### Continued development
 
-- explore band-specific colors for each social icon (Facebook blue, Twitter light blue, instafram gradient).
+- explore band-specific colors for each social icon (Facebook blue, Twitter light blue, instagram gradient).
 - dive into css animations(like subtle zoom or rotation on hover).
 
 - experiment with Google Fonts or other typography options to enhance your design.
