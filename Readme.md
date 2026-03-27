@@ -64,7 +64,7 @@ Users should be able to:
 ## Author
 
 - Your Name
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Abidusage)
+- Frontend Mentor - [@Kabidu Munguakonkwa Sage](https://www.frontendmentor.io/profile/Abidusage)
 
 ## Acknowledgments
 
