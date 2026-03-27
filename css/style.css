@@ -1,0 +1,110 @@
+:root{
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --white: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--violet);
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+    min-height: 100-vh;
+    padding: 40px;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.logo{
+    width: 150px;
+    margin-bottom: 60px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.hero-image img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+
+}
+.hero-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+.btn-register{
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--white);
+    color: var(--violet);
+    font-size: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.3;
+}
+.btn-register:hover{
+    background-color: var(--soft-magenta);
+    color: var(--white);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+} 
+.social-icons a{
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    transition: 0.3s;
+
+}
+.social-icons a:hover{
+    background-color: var(--soft-magenta);
+    color: var(--white);
+}
+
+@media(min-width: 992px){
+    body{
+        background-image: url('../images/bg-desktop.svg');
+        text-align: left;
+    }
+
+    .hero{
+        flex-direction: row;
+        gap: 60px;
+        text-align: left;
+    }
+    .hero-image, .hero-content{
+        flex:1;
+    }
+    .hero-content h1{
+        font-size: 2.5rem;
+    }
+    .footer{
+        justify-content: flex-end;
+    }
+}
